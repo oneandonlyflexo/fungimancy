@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fungimancy",
+  "name": "Fungimancy",
+  "description": "The Magical Mycological Minecraft Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["oneandonlyflexo"],
+  "credits": "Created by the one and only flexo! Shout-outs to the Forge and FML guys, thephoenixlodge, Vazkii, Emoniph",
+  "logoFile": "assets/fungimancy/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
