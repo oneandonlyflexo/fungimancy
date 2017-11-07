@@ -14,7 +14,7 @@ public class Fungimancy
 {
     public static final String MODID = "fungimancy";
     public static final String MODNAME = "Fungimancy";
-    public static final String VERSION = "0.0";
+    public static final String VERSION = "@MOD_VERSION@";
     
  // Says where the client and server 'proxy' code is loaded.
     @SidedProxy(clientSide="one.flexo.fungimancy.proxy.ClientProxy", serverSide="one.flexo.fungimancy.proxy.ServerProxy")
