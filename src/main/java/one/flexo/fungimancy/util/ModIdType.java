@@ -1,23 +1,23 @@
-package one.flexo.nibbler.ids;
+package one.flexo.fungimancy.util;
 
-import one.flexo.fungimancy.Fungimancy;
+import one.flexo.fungimancy.ModInfo;
 
 public enum ModIdType {
 
 	DEFAULT(":"),
 	UNLOCALIZED_NAME("."),
 	DIMENSION("_"),
-	
+
 	;
 
 	ModIdType(String delimiter) {
 		this.delimiter = delimiter;
 	}
-	
+
 	private String delimiter;
-	
+
 	public String getId(String name) {
-		return Fungimancy.MODID + getSuffix(name);
+		return ModInfo.modid + getSuffix(name);
 	}
 
 	public String getSuffix(String name) {
