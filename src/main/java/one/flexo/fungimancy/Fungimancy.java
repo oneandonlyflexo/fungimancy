@@ -1,3 +1,10 @@
+/*******************************************************************************
+ * Copyright (C) 2017 Jeremy Grozavescu <oneandonlyflexo>
+ * https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * 
+ * This file is part of Fungimancy, which is open source:
+ * https://github.com/oneandonlyflexo/fungimancy
+ ******************************************************************************/
 package one.flexo.fungimancy;
 
 import org.apache.logging.log4j.Logger;
